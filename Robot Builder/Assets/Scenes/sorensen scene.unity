@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4515,7 +4515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -781.82025, y: -34.17102}
+  m_AnchoredPosition: {x: -781.8203, y: -34.17102}
   m_SizeDelta: {x: -1755.1, y: -173.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &831205959
@@ -4608,7 +4608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -781.8105, y: -34.17102}
+  m_AnchoredPosition: {x: -781.81055, y: -34.17102}
   m_SizeDelta: {x: -1755.1, y: -173.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940329542
@@ -6113,7 +6113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -781.8105, y: -34.17102}
+  m_AnchoredPosition: {x: -781.81055, y: -34.17102}
   m_SizeDelta: {x: -1755.1, y: -173.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267018399
@@ -7370,7 +7370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -781.8105, y: -34.17102}
+  m_AnchoredPosition: {x: -781.81055, y: -34.17102}
   m_SizeDelta: {x: -1755.1, y: -173.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1685141183
@@ -7953,7 +7953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -781.8105, y: -34.17102}
+  m_AnchoredPosition: {x: -781.81055, y: -34.17102}
   m_SizeDelta: {x: -1755.1, y: -173.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1851773124
@@ -8035,7 +8035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -781.8105, y: -34.17102}
+  m_AnchoredPosition: {x: -781.81055, y: -34.17102}
   m_SizeDelta: {x: -1755.1, y: -173.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888711593
@@ -8207,7 +8207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -781.8105, y: -34.17102}
+  m_AnchoredPosition: {x: -781.81055, y: -34.17102}
   m_SizeDelta: {x: -1755.1, y: -173.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928373791
@@ -9325,7 +9325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 562267965660983427, guid: 6b32cfd87c9574b57b2dd77a5a656f28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 1.093
       objectReference: {fileID: 0}
     - target: {fileID: 562267965660983428, guid: 6b32cfd87c9574b57b2dd77a5a656f28, type: 3}
       propertyPath: m_Camera
@@ -9334,6 +9334,10 @@ PrefabInstance:
     - target: {fileID: 562267965660983428, guid: 6b32cfd87c9574b57b2dd77a5a656f28, type: 3}
       propertyPath: m_RenderMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 562267965660983428, guid: 6b32cfd87c9574b57b2dd77a5a656f28, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 562267965660983428, guid: 6b32cfd87c9574b57b2dd77a5a656f28, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag

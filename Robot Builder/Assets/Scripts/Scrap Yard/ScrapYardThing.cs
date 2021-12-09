@@ -41,7 +41,8 @@ public class ScrapYardThing : MonoBehaviour
         img06 = GetComponentInChildren<UnityEngine.Sprite>();
         img07 = GetComponentInChildren<UnityEngine.Sprite>();
         imgBlank = GetComponentInChildren<Image>();*/
-        
+
+                
     }
 
     public void TaskOnClick()
